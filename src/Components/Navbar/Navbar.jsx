@@ -2,26 +2,6 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
-$(window).on('scroll', function () {
-  let x = $(window).scrollTop();
-
-  if (x > 300 && !$('.navbar').data('expanded')) {
-    $('.navbar')
-      .data('expanded', true)
-      .stop()
-      .animate({ height: '150px' }, 500);
-  } 
-  else if (x <= 300 && $('.navbar').data('expanded')) {
-    $('.navbar')
-      .data('expanded', false)
-      .stop()
-      .animate({ height: '100px' }, 500);
-  }
-});
-
-
-
-
 
   return (
     <>

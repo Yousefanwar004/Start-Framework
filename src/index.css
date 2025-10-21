@@ -108,11 +108,9 @@ cursor: pointer;
 
 }
 .ligthbox-item{
-     width: 600px;
-     height: 400px;
+     width: fit-content;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     vertical-align: middle;
-
+     
 }

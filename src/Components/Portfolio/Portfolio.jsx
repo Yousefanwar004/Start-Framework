@@ -52,8 +52,8 @@ export default function Portfolio() {
 
       {selectedImage && (
         <div id='lightBoxContainer'onClick={closeModal} className='d-flex justify-content-center align-items-center bg-primary bg-opacity-25 position-fixed top-0 start-0 end-0 bottom-0'>
-          <div className='lightbox-item'>
-            <img src={selectedImage} alt="Selected" className='rounded shadow-lg' />
+          <div className='lightbox-item  text-center w-50'>
+            <img src={selectedImage} alt="Selected"  className='rounded shadow-lg w-100 ' />
           </div>
         </div>
       )}

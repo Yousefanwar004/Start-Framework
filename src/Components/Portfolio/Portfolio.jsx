@@ -21,9 +21,9 @@ export default function Portfolio() {
 
   return (
     <>
-      <section id='portfolio' className='vh-100'>
-        <div className='container h-100'>
-          <div className='d-flex justify-content-center align-items-center h-25 mt-5'>
+      <section id='portfolio' className='p-5'>
+        <div className='container p-3'>
+          <div className='d-flex justify-content-center align-items-center h-25 mt-5 p-2 py-3'>
             <div className='text-center'>
               <h1 className='my-3 text-uppercase fw-bolder main-col'>portfolio component</h1>
               <h5 className='line1 m-auto'>
